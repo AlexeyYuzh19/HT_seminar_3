@@ -16,7 +16,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 Console.ForegroundColor = ConsoleColor.Green;
 
-System.Console.WriteLine("Таблица кубов заданного числа: \n");
+System.Console.WriteLine($"\nТаблица кубов числа {number} : \n");
 
 for (int i = 1; i < number; i++)
 {
