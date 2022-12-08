@@ -8,7 +8,7 @@
 Console.Clear();
 Console.WriteLine("Hello, World!");
 Console.ForegroundColor = ConsoleColor.Blue;
-System.Console.WriteLine("Введите пятизначное число: ");
+Console.WriteLine("Введите пятизначное число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
 int number_1 = Math.Abs(number); 
@@ -21,11 +21,11 @@ if (n == 5)
 {
     Console.ForegroundColor = ConsoleColor.Green;
     string resalt = (num[0] == num[4] && num[1] == num[3]) ? "заданное число является палиндромом" : "заданное число не палиндром";
-    System.Console.WriteLine(resalt);
+    Console.WriteLine(resalt);
 }
 else
 {
 Console.ForegroundColor = ConsoleColor.Red;
-System.Console.WriteLine("задано не пятизначное число");
+Console.WriteLine("задано не пятизначное число");
 }
 Console.ResetColor();
